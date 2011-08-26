@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="http://android.git.kernel.org/"
+           fetch="http://aosp.schiznik.net/"
            review="review.source.android.com" />
   <default revision="gingerbread"
            remote="korg" />
@@ -20,7 +20,7 @@
   <project path="device/htc/bravoc" name="devnull-project/android_device_htc_bravoc" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/c1-common" name="devnull-project/android_device_samsung_c1-common" remote="github" />
+  <project path="device/samsung/c1-common" name="adamg-xda/oxygen_device_samsung_c1-common" remote="github" />
   <project path="device/samsung/crespo" name="devnull-project/android_device_samsung_crespo" remote="github" />
   <project path="device/samsung/crespo4g" name="devnull-project/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/galaxys2" name="devnull-project/android_device_samsung_galaxys2" remote="github" />
@@ -119,7 +119,7 @@
   <project path="packages/apps/Browser" name="devnull-project/android_packages_apps_browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="devnull-project/android_packages_apps_camera" remote="github" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" remote="github" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -128,8 +128,8 @@
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
   <project path="packages/apps/Gallery3D" name="devnull-project/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="devnull-project/android_packages_apps_launcher2" remote="github" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Launcher2" name="devnull-project/android_packages_apps_launcher2" remote="github" revision="gingerbread-oxygen" />
+  <project path="packages/apps/Mms" name="devnull-project/android_packages_apps_mms" remote="github" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
