@@ -8,7 +8,7 @@
 
   <remote name="github" fetch="git://github.com/" />
 
-  <project path="build" name="devnull-project/android_build" remote="github">
+  <project path="build" name="oxygen-rom/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="devnull-project/android_bionic" remote="github" />
@@ -16,12 +16,12 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/passion" name="devnull-project/android_device_htc_passion" remote="github" />
   <project path="device/htc/bravo" name="devnull-project/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravoc" name="devnull-project/android_device_htc_bravoc" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
+  <project path="device/htc/passion" name="devnull-project/android_device_htc_passion" remote="github" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/c1-common" name="adamg-xda/oxygen_device_samsung_c1-common" remote="github" />
+  <project path="device/samsung/c1-common" name="oxygen-rom/android_device_samsung_c1-common" remote="github" />
   <project path="device/samsung/crespo" name="devnull-project/android_device_samsung_crespo" remote="github" />
   <project path="device/samsung/crespo4g" name="devnull-project/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/galaxys2" name="devnull-project/android_device_samsung_galaxys2" remote="github" />
@@ -103,13 +103,13 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="adamg-xda/oxygen_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="oxygen-rom/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="devnull-project/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="adamg-xda/oxygen_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="adamg-xda/oxygen_hardware_msm7k" remote="github" />
+  <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/msm7k" name="oxygen-rom/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="devnull-project/android_hardware_ril" remote="github" />
@@ -129,18 +129,18 @@
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
   <project path="packages/apps/Gallery3D" name="devnull-project/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="adamg-xda/oxygen_packages_apps_launcher2" remote="github" />
+  <project path="packages/apps/Launcher2" name="oxygen-rom/android_packages_apps_launcher2" remote="github" />
   <project path="packages/apps/Mms" name="devnull-project/android_packages_apps_mms" remote="github" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="adamg-xda/oxygen_packages_apps_phone" remote="github" />
-  <project path="packages/apps/Settings" name="adamg-xda/oxygen_packages_apps_settings" remote="github" />
+  <project path="packages/apps/Phone" name="oxygen-rom/android_packages_apps_phone" remote="github" />
+  <project path="packages/apps/Settings" name="oxygen-rom/android_packages_apps_settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="adamg-xda/oxygen_packages_apps_torch" remote="github" />
+  <project path="packages/apps/Torch" name="oxygen-rom/android_packages_apps_torch" remote="github" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -154,13 +154,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="adamg-xda/oxygen_system_core" remote="github" />
+  <project path="system/core" name="oxygen-rom/android_system_core" remote="github" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/extras/su" name="ChainsDD/su-binary" revision="master" remote="github" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="vendor/devnull" name="adamg-xda/oxygen_vendor_devnull" remote="github" />
+  <project path="vendor/oxygen" name="oxygen-rom/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="devnull-project/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="devnull-project/android_vendor_htc" remote="github" />
   <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="github" />
