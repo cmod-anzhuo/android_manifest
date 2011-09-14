@@ -12,7 +12,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="devnull-project/android_bionic" remote="github" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="devnull-project/android_bootable_recovery" remote="github" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
@@ -33,7 +33,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="devnull-project/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
@@ -129,7 +129,7 @@
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
   <project path="packages/apps/Gallery3D" name="devnull-project/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="oxygen-rom/android_packages_apps_launcher2" remote="github" />
+  <project path="packages/apps/Launcher2" name="devnull-project/android_packages_apps_launcher2" remote="github" />
   <project path="packages/apps/Mms" name="devnull-project/android_packages_apps_mms" remote="github" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -164,7 +164,4 @@
   <project path="vendor/google" name="devnull-project/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="devnull-project/android_vendor_htc" remote="github" />
   <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="github" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="tmobile/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="master" remote="github" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="tmobile/themes-platform-vendor-tmobile-libs-com.tmobile.themes" revision="master" remote="github" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="tmobile/themes-platform-vendor-tmobile-providers-ThemeManager" revision="master" remote="github" />
 </manifest>
